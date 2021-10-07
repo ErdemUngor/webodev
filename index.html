@@ -1,0 +1,38 @@
+<html><head><title>Untitled</title>
+
+
+
+	<script type="text/javascript">
+	function Toplama()
+	{  s1=document.getElementById("buton1").value;  
+	s2=document.getElementById("buton2").value;
+	textboxresult.value=parseInt(s1)+parseInt(s2); }
+	function   Cikartma(){  s1=document.getElementById("buton1").value;  
+	s2=document.getElementById("buton2").value;
+	textboxresult.value=parseInt(s1)-parseInt(s2);}
+	function   Carpma(){  s1=document.getElementById("buton1").value;  
+	s2=document.getElementById("buton2").value;
+	textboxresult.value=parseInt(s1)*parseInt(s2);}
+	function   Bol(){  s1=document.getElementById("buton1").value;   
+	s2=document.getElementById("buton2").value; if(s2==0) 
+	alert("donomioater cant be ,change the value") 
+	else textboxresult.value=parseInt(s1)/parseInt(s2);}</script>
+    </head>
+    <body>
+	<h2>Web Tabanlı Dört işlem Hesap Makinası</h2>
+
+
+	<input  type="text"  id="buton1" ></br>
+	<input  type="text"  id="buton2" ></br>
+
+	<input type="button"  id="buttonadd" value= "+" onclick="Toplama()">
+	<input type="button"  id="buttonasub" value="-" onclick="Cikartma()">
+	<input type="button"  id="buttonamul" value="*" onclick="Carpma()">
+	<input type="button"  id="buttondiv" value="/" onclick="Bol()"></br>
+	<input  type="text"  id="textboxresult" ></br>
+
+	<b>Halil Erdem Ungor  -  200601072</b>
+
+
+	</body>
+    </html>
